@@ -7,10 +7,11 @@ socket.on("init.productos", (products) => {
         rowProducts.innerHTML += `<div class="card col-3 m-2 border border-4 id="${element.id}"">
         <img src="" class="card-img-top" alt="">
         <div class="card-body">
-            <h5 class="card-title text-center">${element.title}}</h5>
+            <h5 class="card-title text-center">${element.title}</h5>
+            <img src="${element.thumbnail}" class="card-img-top"></>
             <p class="card-text text-center">${element.description}</p>
-            <h3 class="card-text text-center ">${element.price}</h3>
-            <p class="card-text text-center ">cantidad:${element.stock}</p>
+            <h3 class="card-text text-center ">$ ${element.price}</h3>
+            <p class="card-text text-center ">Stock actual:${element.stock}</p>
             <div class="d-flex justify-content-center">
             <button type="button" class="btn btn-primary">Agregar</button>
             </div>

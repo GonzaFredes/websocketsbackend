@@ -1,1 +1,136 @@
-{"products":[{"id":2,"title":"Zapatillas Adidas Low Rider ","description":"Las zapatillas perfil bajo que estas buscando las tenemos aqui","price":"900","thumbnail":"Imagen de Prueba 2","code":"ZAP2","stock":"12","status":"true","category":"zapatillas"},{"id":3,"title":"Zapatillas Adidas Superstar White","description":"Las superstar de toda la vida, pero modelo 2023","price":"1100","thumbnail":"Imagen de Prueba 3","code":"ZAP3","stock":"7","status":"true","category":"zapatillas"},{"id":4,"title":"Zapatillas Converse Urban","description":"Zapatillas Converse para lucir mucho mejor","price":"750","thumbnail":"Imagen de Prueba 4","code":"ZAP4","stock":"15","status":"true","category":"zapatillas"},{"id":5,"title":"Remera Under Armour Classic","description":"Lo clasico siempre queda bien","price":"150","thumbnail":"Imagen de Prueba 5","code":"REM1","stock":"10","status":"true","category":"remeras"},{"id":6,"title":"Remera Under Armour Vintage","description":"Nuestras remeras estan compuestas de los mejores materiales para que luzcas como el mejor","price":"160","thumbnail":"Imagen de Prueba 6","code":"REM2","stock":"10","status":"true","category":"remeras"},{"id":7,"title":"Remera Adidas Forum","description":"Nueva coleccion 2023 Forum","price":"200","thumbnail":"Imagen de Prueba 7","code":"REM3","stock":"10","status":"true","category":"remeras"},{"id":8,"title":"Remera Nike Listen","description":"Escucha tus ideas","price":"1700","thumbnail":"Imagen de Prueba 8","code":"REM4","stock":"10","status":"true","category":"remeras"},{"id":9,"title":"Pantalon Hang Loose Est","description":"Echo para que te lo pongas con cualquier prenda","price":"1500","thumbnail":"Imagen de Prueba 9","code":"PAN1","stock":"10","status":"true","category":"pantalones"},{"id":10,"title":"Pantalon Quiksilver Lounge","description":"En la playa o en la ciudad, queda bien donde estes","price":"1900","thumbnail":"Imagen de Prueba 10","code":"PAN2","stock":"10","status":"true","category":"pantalones"},{"id":9,"title":"Pantalon Quiksilver live","description":"En la playa o en la ciudad, queda bien donde estes","price":"1900","thumbnail":"Imagen de Prueba 10","code":"PAN453","stock":"10","status":"true","category":"pantalones"},{"id":10,"title":"Pantalon Quiksilver ARG","description":"En la playa o en la ciudad, queda bien donde estes","price":"1900","thumbnail":"Imagen de Prueba 10","code":"PAN453","stock":"10","status":"true","category":"pantalones"},{"id":11,"title":"Pantalon Quiksilver local","description":"En la playa o en la ciudad, queda bien donde estes","price":"1900","thumbnail":"Imagen de Prueba 10","code":"PAN453","stock":"10","status":"true","category":"pantalones"}]}
+{
+    "products": [
+        {
+            "id": 0,
+            "title": "Zapatillas Adidas Low Rider ",
+            "description": "Las zapatillas perfil bajo que estas buscando las tenemos aqui",
+            "price": "900",
+            "thumbnail": "https://assetscdn.loadbee.com/i/1000x1000/catalogue/eyrhd9tnwyeestvh/images-originals/adce6a44b7d6f79014f71669c1655bffdd1b780c.jpg",
+            "code": "ZAP2",
+            "stock": "12",
+            "status": "true",
+            "category": "zapatillas"
+        },
+        {
+            "id": 1,
+            "title": "Zapatillas Adidas Superstar White",
+            "description": "Las superstar de toda la vida, pero modelo 2023",
+            "price": "1100",
+            "thumbnail": "https://assetscdn.loadbee.com/i/1000x1000/catalogue/eyrhd9tnwyeestvh/images-assets/7387918eddb3f74314ef0f966134a5c6ccf4d39a.jpg",
+            "code": "ZAP3",
+            "stock": "7",
+            "status": "true",
+            "category": "zapatillas"
+        },
+        {
+            "id": 2,
+            "title": "Zapatillas Nike Air Force ONE",
+            "description": "Zapatillas Air Force One para mantener el equilibro entre el estilo y tu dia a día.",
+            "price": "750",
+            "thumbnail": "https://essential.vtexassets.com/arquivos/ids/432205-800-auto?v=637571120506070000&width=800&height=auto&aspect=true",
+            "code": "ZAP4",
+            "stock": "15",
+            "status": "true",
+            "category": "zapatillas"
+        },
+        {
+            "id": 3,
+            "title": "Remera Under Armour Classic",
+            "description": "Lo clasico siempre queda bien",
+            "price": "150",
+            "thumbnail": "Imagen de Prueba 5",
+            "code": "REM1",
+            "stock": "10",
+            "status": "true",
+            "category": "remeras"
+        },
+        {
+            "id": 4,
+            "title": "Remera Under Armour Vintage",
+            "description": "Nuestras remeras estan compuestas de los mejores materiales para que luzcas como el mejor",
+            "price": "160",
+            "thumbnail": "https://essential.vtexassets.com/arquivos/ids/285284-800-auto?v=637050387265530000&width=800&height=auto&aspect=true",
+            "code": "REM2",
+            "stock": "10",
+            "status": "true",
+            "category": "remeras"
+        },
+        {
+            "id": 5,
+            "title": "Remera Adidas Forum",
+            "description": "Nueva coleccion 2023 Forum",
+            "price": "200",
+            "thumbnail": "https://essential.vtexassets.com/arquivos/ids/706435-800-auto?v=638098128997600000&width=800&height=auto&aspect=true",
+            "code": "REM3",
+            "stock": "10",
+            "status": "true",
+            "category": "remeras"
+        },
+        {
+            "id": 6,
+            "title": "Pantalon Quiksilver local",
+            "description": "En la playa o en la ciudad, queda bien donde estes",
+            "price": "1900",
+            "thumbnail": "Imagen de Prueba 10",
+            "code": "PAN453",
+            "stock": "10",
+            "status": "true",
+            "category": "pantalones"
+        },
+        {
+            "id": 7,
+            "title": "Pantalon Quiksilver local",
+            "description": "En la playa o en la ciudad, queda bien donde estes",
+            "price": "1900",
+            "thumbnail": "Imagen de Prueba 10",
+            "code": "PAN453",
+            "stock": "10",
+            "status": "true",
+            "category": "pantalones"
+        },
+        {
+            "id": 8,
+            "title": "Pantalon Quiksilver local",
+            "description": "En la playa o en la ciudad, queda bien donde estes",
+            "price": "1900",
+            "thumbnail": "Imagen de Prueba 10",
+            "code": "PAN453",
+            "stock": "10",
+            "status": "true",
+            "category": "pantalones"
+        },
+        {
+            "id": 9,
+            "title": "Pantalon Quiksilver local",
+            "description": "En la playa o en la ciudad, queda bien donde estes",
+            "price": "1900",
+            "thumbnail": "Imagen de Prueba 10",
+            "code": "PAN453",
+            "stock": "10",
+            "status": "true",
+            "category": "pantalones"
+        },
+        {
+            "id": 10,
+            "title": "Pantalon Quiksilver local",
+            "description": "En la playa o en la ciudad, queda bien donde estes",
+            "price": "1900",
+            "thumbnail": "Imagen de Prueba 10",
+            "code": "PAN453",
+            "stock": "10",
+            "status": "true",
+            "category": "pantalones"
+        },
+        {
+            "id": 11,
+            "title": "Pantalon Quiksilver local",
+            "description": "En la playa o en la ciudad, queda bien donde estes",
+            "price": "1900",
+            "thumbnail": "Imagen de Prueba 10",
+            "code": "PAN453",
+            "stock": "10",
+            "status": "true",
+            "category": "pantalones"
+        }
+    ]
+}

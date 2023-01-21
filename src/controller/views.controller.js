@@ -5,7 +5,6 @@ const Product = new ProductManager('./assets/product.json');
 
 const views = async (req, res) => {
     let products = await Product.getProducts();
-    console.log (products);
     res.render("home",{
     products
 } );       
@@ -39,7 +38,6 @@ const addRealTimeProduct = async (req, res)=>{
     }
 
 }
-
 
 module.exports ={
     views,
