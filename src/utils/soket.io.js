@@ -9,18 +9,17 @@ const connectionSocket = (httpServer)=>{
         console.log("Nuevo Clinte conectado")
         let products = await Product.getProducts();
         
-        socket.emit('init-products', products)
+        socket.emit('init.productos', products)
     });
 }
 
 const emitDeleteProduct = (id)=>{
-    io.emit('delete-product', {id})
+    io.emit('delete.productos', {id})
 }
 
 const emitaddRealtime = (add)=>{
-    io.emit('add-product',{add} )
+    io.emit('create.productos',{add} )
 }
-
 
 module.exports = {
     connectionSocket,
