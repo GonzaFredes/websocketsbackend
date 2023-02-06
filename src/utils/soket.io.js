@@ -8,7 +8,6 @@ const connectionSocket = (httpServer)=>{
     io.on ('connection', async (socket)=>{
         console.log("Nuevo cliente conectado")
         let products = await Product.getProducts();
-        
         socket.emit('init.productos', products)
     });
 }

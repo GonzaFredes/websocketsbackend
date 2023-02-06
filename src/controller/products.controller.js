@@ -13,10 +13,8 @@ const getProducts = async (req, res) => {
   } else{
     let productos = await Product.getProducts(limite);
      res.json(productos);
-
   }
 };
-
 
 
 const getProductId = async (req , res)=>{
@@ -26,8 +24,6 @@ const getProductId = async (req , res)=>{
       res.json("Producto no encontrado")    
    } else{
        res.json(product)  
- 
-
    }
 }   
 
@@ -39,7 +35,6 @@ const addProduct = async (req , res)=>{
     }else{
       res.json(add);
     }
-
 }
 
 const  UpdateProduct = async (req, res)=>{
@@ -51,7 +46,6 @@ const  UpdateProduct = async (req, res)=>{
     }else{
       res.json(update);
     }
-
 }
 
 const deleteProduct = async (req, res)=>{
@@ -62,7 +56,6 @@ const deleteProduct = async (req, res)=>{
   }else{
     res.json(Delete);
   }
-
 }
 
 
